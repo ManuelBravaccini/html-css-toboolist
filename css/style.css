@@ -12,11 +12,15 @@ body{
 header#header_page{
     width: 100%;
     padding: 20px;
+    height: 100px;
     background-color: white;
+    position: relative;
 }
 
 h1{
     display: inline-block;
+    position: absolute;
+    line-height: 1.5;
 }
 
 main{
