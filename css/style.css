@@ -9,7 +9,7 @@ body{
     background-color: #f2f2f2;
 }
 
-header{
+header#header_page{
     width: 100%;
     padding: 20px;
     background-color: white;
@@ -21,15 +21,18 @@ h1{
 
 main{
     margin: 50px 100px;
-    border: 1px solid black;
     border-radius: 10px;
     background-color: white;
 }
 
-.main_header p{
+header.header_main{
+    padding: 20px 50px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.header_main p{
     display: inline-block;
     font-size: 0.9rem;
-    border: 1px solid black;
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -37,10 +40,12 @@ main{
 p#add_task{
     background-color: #47adf1;
     color: white;
+    border: 1px solid #47adf1;
 }
 
 p#add_section{
     color: lightgray;
+    border: 1px solid black;
 }
 
 
@@ -48,27 +53,38 @@ p#add_section{
     padding: 25px 50px;
 }
 
+span.reverse_triangle{
+    font-size: 0.9rem;
+}
+
 ul{
     list-style-type: none;
 }
 
 li{
-    padding: 10px;
+    padding: 10px 0;
+    font-weight: 500;
 }
 
 span.check{
     color: green;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 1px solid green;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
 }
 
 span.cross{
     color: red;
     border-radius: 50%;
     border: 1px solid red;
+    padding: 0.1rem 0.3rem;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
 }
 
-span.editional{
+span.editioral{
     background-color: #47adf1;
     color: white;
     font-size: 0.8rem;  
@@ -94,6 +110,22 @@ span.recruiting{
 
 span.mobile{
     background-color: #f29e33;
+    color: white;
+    font-size: 0.8rem;  
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+span.website{
+    background-color: #d863a1;
+    color: white;
+    font-size: 0.8rem;  
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+span.sales{
+    background-color: #b0c926;
     color: white;
     font-size: 0.8rem;  
     border-radius: 10px;
