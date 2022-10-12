@@ -34,20 +34,20 @@ header.header_main{
     border-bottom: 2px solid #f2f2f2;
 }
 
-.header_main p{
-    display: inline-block;
+.header_main .button{
     font-size: 0.9rem;
     border-radius: 5px;
     padding: 5px 10px;
 }
 
-p#add_task{
+.button.add_task{
     background-color: #47adf1;
     color: white;
     border: 1px solid #47adf1;
 }
 
-p#add_section{
+.button.add_section{
+    background-color: white;
     color: lightgray;
     border: 1px solid black;
 }
